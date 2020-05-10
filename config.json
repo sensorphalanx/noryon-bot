@@ -1,0 +1,5 @@
+{
+  "PREFIX": "?", 
+  "TOKEN": "자신의 봇 토큰", //https://discord.com/developers/applications 에서 얻으실수 있습니다  with - 놀욘 #4834
+  "YOUTUBE_API_KEY": "유튜브 API 키"
+}
