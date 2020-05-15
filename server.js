@@ -10,7 +10,7 @@ const express = require('express');
 const app = express();
 const {MessageEmbed} = require("discord.js")
 const koreanbots = require('koreanbots');
-const bot = new koreanbots.MyBot('eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjI5NDkzMDQxNjE0MDMwOCIsImlhdCI6MTU4ODU2NjEwNywiZXhwIjoxNjIwMTIzNzA3fQ.au3jnGUQqqRg4I-wQvsXI4RsqMJ_He0a-j--whHD7Wl1a70TbFl9pacFUFg-CaMlAaSfqUp863c0qSIkEjc0XBi8jxnrfu3ynhoZdi8ekR9_SzdI29UwcCIPyV12w2QWRy3jtylG_Ig7NB8mEQZllZZeJMH-KmB82w-ukwGJ1PI')
+const bot = new koreanbots.MyBot('-----------검열-------')
 var server = http.createServer(app);
 
 app.get("/", (request, response) => {
