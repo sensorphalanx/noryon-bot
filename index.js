@@ -74,11 +74,6 @@ client.on("ready", () => {
 
     const s = client.channels.cache.get('699097664482050119')
 
-//    client.channels.cache.get('699097664482050119').send("**========================================**",{embed:{title:`${client.emojis.cache.find(x => x.name == 'win_load')}날씨 모듈 활성화되었습니다.`,color:"GREEN"}})
-//  client.channels.cache.get('699097664482050119').send({embed:{title:`**-------------------------------------**\n\n${client.emojis.cache.find(x => x.name == 'win_load')}모든 프로세스 활성화되었습니다\n\n**-------------------------------------**`,color:"YELLOW"}}) 
- //   client.channels.cache.get('699097664482050119').send({embed:{color:"BLUE",description:`**-------------------------------------**\n\n${client.emojis.cache.find(x => x.name == 'cheack')} 핸들러가 활성화되었습니다\n\n ${client.emojis.cache.find(x => x.name == 'online')} **${client.user.tag}가 로그인되었습니다**\n\n **\`\`접두사: n$\`\`**\n **\`\`음악 접두사: n$\`\`**\n **-------------------------------------**`}})
-   //client.channels.cache.get('699097664482050119').send("**========================================**")
-
 
     const botgame = [`Use n$help | n$도움말`, `Version | ${process.env.v}`,`안전한 서비스 제공중`,`${client.guilds.cache.size}서버 | ${client.users.cache.size}유저`,`${client.users.cache.size}유저`,`${client.guilds.cache.size}서버`]
 setInterval(() => {
@@ -87,9 +82,9 @@ setInterval(() => {
 
       }, 5500)
   setInterval(() => {
- client.channels.cache.get('710817128969666604').edit({name: `서버: ${client.guilds.cache.size}`})
-    client.channels.cache.get('710818884826955787').edit({name: `유저: ${client.users.cache.size}`})
-    client.channels.cache.get('710823565993443450').edit({name: `핑: ${client.ws.ping}`})
+ client.channels.cache.get('ID').edit({name: `서버: ${client.guilds.cache.size}`})
+    client.channels.cache.get('ID').edit({name: `유저: ${client.users.cache.size}`})
+    client.channels.cache.get('ID').edit({name: `핑: ${client.ws.ping}`})
      }, 5500)
     console.log(`${client.user.username}지금 부터 온라인!`);
 })
@@ -105,7 +100,7 @@ client.on("message", async message => {
 
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
   
-  const dev = ["616570697875193866","267658832291823626","247305812123320321"]
+  const dev = ["ㅁㄴㅇㅇㄹ","ㅁㄴㅇㄹ","ㅁㄴㅇㄹ"]
     const cmd = args.shift().toLowerCase();
     
     if (cmd.length === 0) return;
