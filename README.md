@@ -8,5 +8,4 @@
 
 - 명령어들중에 원작자이름이 없는경우 이슈를 넣어주십시오.
 ****
-[[Run on Repl.it](https://repl.it/badge/github/noryonkr/noryon-bot)]
-[](https://repl.it/github/noryonkr/noryon-bot)
+[![Run on Repl.it](https://repl.it/badge/github/noryonkr/noryon-bot)](https://repl.it/github/noryonkr/noryon-bot)
